@@ -1,0 +1,47 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace opp
+{
+    internal class Car
+    {
+        //string color = "red";
+
+        //public void CarMax()
+        //{
+        //    Console.WriteLine("Bike is very Nice");
+        //}
+        string model;
+        string color;
+        int year;
+        static void Main(string[] args)
+        {
+            //Car car = new Car();
+
+            //Program pg = new Program();
+
+            //Console.WriteLine(car.color+" " +pg.model);
+            //car.CarMax();
+
+            Car Ford = new Car();
+            Ford.model = "Mustang";
+            Ford.color = "red";
+            Ford.year = 1969;
+
+
+            Car ope1 = new Car();
+            ope1.model = "Mustang";
+            ope1.color = "red";
+            ope1.year = 2005;
+
+
+            Console.WriteLine(Ford.model);
+            Console.WriteLine(ope1.model);
+
+            Console.ReadLine();
+        }
+    }
+}
